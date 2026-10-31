@@ -18,6 +18,7 @@ pub struct Package {
     pub base: usize,
     pub desc: usize,
     pub chunks: Vec<(String, usize, usize)>,
+    scriptable: bool,
 }
 impl Class {
     pub fn field<'a>(&'a self, p: &Package, name: &str) -> Option<&'a Field> {
@@ -136,6 +137,7 @@ impl Package {
             base,
             desc,
             chunks,
+            scriptable,
         })
     }
     pub fn name_id(&self, s: &str) -> Result<u16> {
@@ -206,7 +208,7 @@ impl Package {
                 (start - self.base + delta) as u32,
             )?;
         }
-        *self = Self::parse(bytes, true)?;
+        *self = Self::parse(bytes, self.scriptable)?;
         Ok(())
     }
     pub fn class(&self, bytes: &[u8]) -> Result<Class> {

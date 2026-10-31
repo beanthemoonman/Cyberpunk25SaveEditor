@@ -1,4 +1,4 @@
-# Night City Save Editor 0.1.9
+# Night City Save Editor 0.1.10
 
 ## Русский
 
@@ -14,6 +14,7 @@
 замена сейва с резервной копией в `old` (по умолчанию выключена).
 Последние изменения (от новых версий к старым):
 
+- **0.1.10:** исправлена согласованность ранга и стоимости улучшений; выбор начального ранга — по уровню V, серый 1 или максимальный 5++; отдельная вкладка культового оружия с изображениями, описанием и способом получения; учёт инвентаря и тайника; лимиты 1/2; два варианта Скиппи. Добавление оружия тестовое, влияние на квесты не проверено.
 - **0.1.9:** английские названия предметов с ID, поиск по названию/ID, категории и совместные фильтры культовых и квестовых предметов. Уровни персонажа, репутации и навыков можно повышать выше стандартных лимитов с соответствующим игровым модом; доступен ввод с клавиатуры двойным щелчком.
 - **0.1.8:** автоматически исправляется исчезнувший пункт лицевых киберимплантов. Если косметику нельзя перенести на другое тело, можно отменить смену тела или продолжить со стандартной косметикой, сохранив экипировку.
 - **0.1.7:** убраны обязательные диалоги сохранения пресета; исправлены сохранение косметики имплантов в пресетах и добавление очков развития в новых сейвах.
@@ -40,6 +41,7 @@ Includes complete `.ncpreset` character presets, the remembered last save folder
 and optional save replacement with backups in `old` (off by default).
 Recent changes (newest first):
 
+- **0.1.10:** synchronized initial tier and upgrade costs; select V's level, grey Tier 1, or maximum Tier 5++; dedicated iconic weapon catalog with images, descriptions and acquisition notes; inventory/stash ownership; limits of 1/2; two Skippy variants. Weapon addition is experimental and quest compatibility is unverified.
 - **0.1.9:** English item names with IDs, name/ID search, categories and combined iconic/quest filters. Character level, Street Cred and skills can exceed standard limits with a suitable game mod; double-click a number to enter a level with the keyboard.
 - **0.1.8:** automatic repair of the missing facial-cyberware option. If cosmetics cannot transfer to another body, you can cancel or continue with default cosmetics while retaining equipment.
 - **0.1.7:** removed mandatory preset save dialogs; fixed cyberware cosmetic capture in presets and adding development points to fresh saves.

@@ -758,6 +758,28 @@ impl Save {
                 old.checked_add(quantity).context("Quantity overflow")?,
             );
         }
+        let mut header = id.to_le_bytes().to_vec();
+        header.extend(2u32.to_le_bytes());
+        header.push(2);
+        header.extend([0u8; 3]);
+        let mut item = header.clone();
+        item.push(0);
+        item.extend(0u32.to_le_bytes());
+        item.extend(quantity.to_le_bytes());
+        self.insert_inventory_item(inventory, &header, &item)
+    }
+
+    /// Insert one complete itemData payload, retaining existing item bytes and links.
+    pub(crate) fn insert_inventory_item(
+        &mut self,
+        inventory: u64,
+        header: &[u8],
+        item: &[u8],
+    ) -> Result<()> {
+        ensure!(
+            header.len() == 16 && item.starts_with(header),
+            "Invalid item identity"
+        );
         let n = self.node("inventory")?.clone();
         let mut r = Reader::new(&self.data, n.offset + 4);
         let cnt = r.u32()?;
@@ -787,16 +809,9 @@ impl Save {
             .position(|n| n.offset >= insert)
             .context("No node after inventory")?;
         let new_id = idx as u32;
-        let mut header = id.to_le_bytes().to_vec();
-        header.extend(2u32.to_le_bytes());
-        header.push(2);
-        header.extend([0u8; 3]);
-        let mut payload = header.clone();
+        let mut payload = header.to_vec();
         payload.extend(new_id.to_le_bytes());
-        payload.extend(&header);
-        payload.push(0);
-        payload.extend(0u32.to_le_bytes());
-        payload.extend(quantity.to_le_bytes());
+        payload.extend(item);
         let delta = payload.len();
         candidate.data.splice(insert..insert, payload);
         for node in &mut candidate.nodes {
@@ -841,7 +856,7 @@ impl Save {
                 },
                 child: u32::MAX,
                 offset: insert + 16,
-                size: 29,
+                size: item.len() + 4,
             },
         );
         put32(&mut candidate.data, count_pos, count + 1)?;

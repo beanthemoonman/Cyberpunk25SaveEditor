@@ -41,6 +41,8 @@ impl Language {
     }
 }
 const MESSAGES:&[(&str,&str)]=&[
+    ("Культовое оружие", "Iconic weapons"),
+    ("Оружие добавлено (тестовая функция)", "Weapon added (experimental feature)"),
     ("Все предметы", "All items"),
     ("Огнестрельное оружие", "Ranged weapons"),
     ("Оружие ближнего боя", "Melee weapons"),

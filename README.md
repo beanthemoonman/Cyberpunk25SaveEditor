@@ -12,7 +12,7 @@
 
 ### Запуск
 
-Готовая версия **0.1.9** — установка Rust и сборка не нужны:
+Готовая версия **0.1.10** — установка Rust и сборка не нужны:
 
 | Платформа | Скачать | Содержимое |
 | --- | --- | --- |
@@ -46,7 +46,44 @@
 Кнопка **О нас** открывает страницу автора с проектами и музыкой; она доступна
 и до загрузки сохранения.
 
-### История изменений: 0.1.9 → 0.1.2
+### Культовое оружие — тестовая функция
+
+В версии 0.1.10 добавлена отдельная вкладка **Культовое оружие**: 60 карточек
+(59 видов из списка и два варианта Скиппи), изображения, короткие описания, способы
+получения, поиск и фильтр по типу. Наличие считается суммарно в инвентаре V и тайнике,
+включая известные варианты качества и квестовые записи. Предметы других персонажей
+и торговцев в этот счётчик не входят.
+
+Кнопки добавляют один экземпляр в инвентарь V; для оружия с игровым тегом `DualWield`
+можно также добавить две копии сразу. Лимит редактора — две копии такого оружия и
+одна для остальных, с учётом уже имеющихся экземпляров. Это ограничение редактора,
+а не обещание, что игра запретит дальнейшие квестовые награды. Оба варианта Скиппи
+делят один лимит: говорящий до квеста и молчаливый после квеста.
+
+**Добавление оружия проходит испытания; проверка в игре ещё требуется.** Для каждого
+оружия отображается статус «Квест после добавления: не проверено». Квестовые факты
+не изменяются. Добавление Скиппи с ИИ само по себе не гарантирует реплики, запуск
+или успешное завершение его квеста. Нельзя обещать получение второй копии при
+последующем прохождении связанного квеста.
+
+Создание записывает отдельную идентичность предмета, штатные встроенные детали и
+соответствующую запись StatsSystem. Уровень добычи берётся из уровня V (до 60). Ранг новых копий выбирается отдельно:
+по уровню V без «+» (по умолчанию), серый первого ранга или максимальный 5++.
+Счётчик улучшений и ранг задаются вместе; уровень V больше не добавляет независимый
+случайный ранг поверх счётчика. Ранее добавленные экземпляры автоматически не меняются;
+окончательные характеристики, улучшения и квестовые реакции нужно проверить в игре.
+Работают отмена/повтор и экспорт копии. Возможность включена в готовые пакеты 0.1.10 для Windows и macOS.
+
+### История изменений: 0.1.10 → 0.1.2
+
+#### 0.1.10 — культовое оружие (31 октября 2026)
+
+- Исправлено несоответствие начального ранга оружия и стоимости улучшений. Новый выбор: по уровню V без «+», серое первого ранга или максимальное 5++. Начальный ранг, «+»/«++» и счётчик улучшений согласованы; исправление применяется к новым копиям. Проверка новой схемы в игре ещё требуется.
+- Пользователь подтвердил в игре: две одинаковые культовые пушки можно использовать с двух рук, независимо улучшать и оснащать модификациями.
+- Отдельная вкладка «Культовое оружие»: 60 карточек с изображениями, описаниями и способами получения, поиск и фильтр по типу.
+- Добавление полноценных экземпляров оружия с учётом наличия в инвентаре V и тайнике. Лимит — 2 для оружия с поддержкой стрельбы с двух рук и 1 для остальных.
+- Два варианта Скиппи: с ИИ до квеста и молчаливый после, с общим лимитом. Реплики и квест зависят от состояния сохранения.
+- Функция добавления оружия тестовая и проходит испытания; влияние на квесты пока не проверено. Доступны отмена и повтор изменений.
 
 #### 0.1.9 — удобный инвентарь и уровни для модифицированной игры (29 октября 2026)
 
@@ -102,6 +139,7 @@
 | --- | --- |
 | Персонаж | Пять атрибутов, уровень, репутация, пять навыков, очки развития и биочипа |
 | Инвентарь | Контейнеры, деньги, количества существующих стеков, квестовые флаги, английские названия с ID, категории и совместные фильтры |
+| Культовое оружие (тест) | Каталог с картинками, наличие в инвентаре/тайнике, добавление с лимитом 1 или 2; влияние на квесты не проверено |
 | Добавление ресурсов | Деньги, компоненты пяти уровней, четыре вида боеприпасов |
 | Внешность | Мужское/женское тело и голос, расширенный редактор appearance definitions и morph targets |
 | Гараж | Добавление/удаление доступного для вызова транспорта, сохранение неизвестных записей |
@@ -110,7 +148,8 @@
 
 Словарь содержит 40 548 технических имён записей. Отдельный справочник игры 2.5
 содержит 10 156 записей с типами и 7 283 английскими названиями. Названия предметов
-всегда английские, язык интерфейса переключается независимо. Если название или
+в общей вкладке инвентаря английские, язык интерфейса переключается независимо.
+Отдельный культовый каталог содержит русские и английские названия. Если название или
 строковый ID не найдены, отображается доступный ID/TDBID. Каталог транспорта взят из CyberCAT; неизвестные
 уже открытые машины также показываются.
 
@@ -173,8 +212,8 @@ forced modifier игрока в **новом StatsSystem 2.5** (`valuesOptimized
 - Внешность редактируется по внутренним именам игры, без 3D-просмотра и
   гарантии существования введённого ресурса. Смена жизненного пути,
   импорт пресетов CyberCAT и автоматический подбор связанных ресурсов не реализованы.
-- Добавление произвольного оружия, одежды, имплантов и модификаторов предметов
-  не включено. Уникальные предметы можно просматривать и менять их квестовый флаг.
+- Добавление оружия из отдельного культового каталога доступно как тестовая функция.
+  Произвольное оружие, одежда, импланты и модификаторы предметов не поддерживаются.
 - Пресеты квестовых флагов не гарантируют сюжетный результат при любом состоянии квестов.
 - Другие версии игры намеренно отклоняются, пока их формат не проверен.
 
@@ -250,7 +289,7 @@ Project repository: [desfpc/Cyberpunk25SaveEditor](https://github.com/desfpc/Cyb
 
 ### Getting started
 
-Download version **0.1.9** — no Rust installation or build step required:
+Download version **0.1.10** — no Rust installation or build step required:
 
 | Platform | Download | Contents |
 | --- | --- | --- |
@@ -285,7 +324,16 @@ verification does not replace checking that the edited save loads in the game.
 **About us** opens the author’s projects and music page, including before loading
 a save.
 
-### Changelog: 0.1.9 → 0.1.2
+### Changelog: 0.1.10 → 0.1.2
+
+#### 0.1.10 — iconic weapons (October 31, 2026)
+
+- Fixed the mismatch between initial weapon tier and upgrade costs. Choose V's level without “+”, grey Tier 1, or maximum Tier 5++. Initial tier, +/++ and the upgrade counter are synchronized for newly added copies. The revised progression still needs in-game verification.
+- User-confirmed in game: two identical iconic guns support dual wield, independent upgrades and separate modifications.
+- A dedicated Iconic weapons tab: 60 cards with artwork, descriptions and acquisition notes, search and a type filter.
+- Create complete weapon instances while counting ownership across V's inventory and stash. Limit: 2 for dual-wield weapons and 1 for others.
+- Pre-quest AI and silent post-quest Skippy variants share an ownership limit. Dialogue and quest behavior depend on the save's story state.
+- Weapon addition is experimental and being tested; quest compatibility remains unverified. Undo and redo are supported.
 
 #### 0.1.9 — inventory browser and levels for modded games (October 29, 2026)
 
@@ -334,6 +382,31 @@ a save.
 #### 0.1.2 — initial version
 
 - Added independent body and voice selection, Russian and English UI with English by default, undo/redo and export of a separate save copy.
+
+### Iconic weapons — experimental
+
+Version 0.1.10 adds an **Iconic weapons** tab with 60 cards (59 weapons and two
+Skippy variants), images, short descriptions, acquisition notes, search and a type
+filter. Ownership counts V's inventory and stash, including known quality/story
+aliases, while excluding other characters' and vendors' inventories.
+
+Add one copy to V's inventory, or two at once for weapons tagged `DualWield` by the
+game. The editor caps these weapons at two owned copies and other weapons at one.
+This is an editor limit, not a restriction on future game rewards. The pre-quest
+AI Skippy and silent post-quest Skippy share one ownership limit.
+
+**Weapon addition is being tested and still needs in-game verification.** Every
+card displays “Quest after addition: unverified.” Quest facts are retained. Adding
+the AI Skippy does not guarantee dialogue or activation/completion of its quest.
+Later story rewards and duplicate handling have not been verified for each quest.
+
+Creation writes a separate item identity, native preset parts and a matching
+StatsSystem entry. Loot level follows V's level (capped at 60). Select the initial tier separately:
+V's level without + (default), grey Tier 1, or maximum Tier 5++. The upgrade counter
+and tier are initialized together, with the independent level-based quality roll
+disabled. Previously added weapons are not changed automatically. Final stats,
+upgrades and story interactions require in-game checks. Undo/redo and copy export
+are available. This feature is included in the ready-to-run 0.1.10 Windows and macOS packages.
 
 ### Features
 
@@ -409,8 +482,8 @@ This is an initial working version and does not replace every CyberCAT feature.
 - Appearance editing uses internal game names, without a 3D preview or validation
   that the entered resource exists. Life path changes, preset
   import from CyberCAT and automatic selection of related resources are not implemented.
-- Adding arbitrary weapons, clothing, cyberware and item modifiers is not included.
-  Existing unique items can be inspected and their quest flags can be changed.
+- Iconic catalog weapons can be added experimentally. Arbitrary weapons, clothing,
+  cyberware and item modifiers are not supported.
 - Quest fact presets cannot guarantee a story outcome for every quest state.
 - Other game versions are deliberately rejected until their formats are verified.
 

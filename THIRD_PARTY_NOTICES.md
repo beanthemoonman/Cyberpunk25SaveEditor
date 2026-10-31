@@ -46,3 +46,18 @@ and crc32fast (MIT OR Apache-2.0). The applications do not contain or require
 CyberCAT, WolvenKit, .NET, or a local game installation at runtime.
 
 Cyberpunk 2077 is a trademark of CD PROJEKT. This is an unofficial project.
+
+The experimental iconic catalog (assets/iconic_weapons.json) combines a
+user-supplied weapon list with short English summaries and numeric native part
+references / DualWield tags from local 2.5 TweakDB files. The reproducible blueprint
+extractor is scripts/extract_weapon_blueprints.py (base file, then expansion).
+Weapon artwork was supplied in iconsItems/weapons/uniq; the bundled PNG files in
+assets/iconic_weapons are format conversions of those images. Cyberpunk artwork
+and weapon names remain the property of their respective rights holders.
+The PNG decoder uses the image crate (MIT OR Apache-2.0).
+
+assets/weapon_quality_curves_25.json contains only four numeric curve tables from
+local 2.5 CurveSet resources. scripts/extract_weapon_quality_curves.py reproduces
+it from already decompressed quality_curves and random_distributions resources.
+The tables validate initial tier selection and native upgrade-stage progression;
+no original CurveSet files or decompression library are distributed.

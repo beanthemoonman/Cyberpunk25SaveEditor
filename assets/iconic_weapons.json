@@ -1,0 +1,2409 @@
+[
+  {
+    "key": "Preset_Overture_Cassidy",
+    "name": "Амнистия",
+    "name_en": "Amnesty",
+    "record": "Items.Preset_Overture_Cassidy",
+    "kind": "Wea_Revolver",
+    "description": "Обладает множеством модификаций, которые упрощают стрельбу из этого револьвера и обеспечивают ему огромную боевую мощь.",
+    "source": "Кэссиди: «Семью не выбирают».",
+    "source_en": "Cassidy: We Gotta Live Together.",
+    "aliases": [
+      118581244965,
+      124869888089,
+      170356583931
+    ],
+    "group": "Preset_Overture_Cassidy",
+    "limit": 2,
+    "image": "overture_cassidy",
+    "quest_sensitive": true,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 176392927689,
+        "slot": 105238933355
+      },
+      {
+        "record": 182326412904,
+        "slot": 97104548228
+      },
+      {
+        "record": 193230437638,
+        "slot": 105403780121
+      },
+      {
+        "record": 195514807509,
+        "slot": 127320661696
+      },
+      {
+        "record": 96236807326,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Cassidy's customized revolver."
+  },
+  {
+    "key": "Preset_Overture_Kerry",
+    "name": "Архангел",
+    "name_en": "Archangel",
+    "record": "Items.Preset_Overture_Kerry",
+    "kind": "Wea_Revolver",
+    "description": "Благодаря автоматическому режиму позволяет стрелять в ритме песни «Archangel», исполненной «Самураем».",
+    "source": "Керри: «Звуки музыки».",
+    "source_en": "Kerry: A Like Supreme.",
+    "aliases": [
+      116320507286,
+      140729373895,
+      161024626888
+    ],
+    "group": "Preset_Overture_Kerry",
+    "limit": 2,
+    "image": "overture_kerry",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 176392927689,
+        "slot": 105238933355
+      },
+      {
+        "record": 182326412904,
+        "slot": 97104548228
+      },
+      {
+        "record": 193230437638,
+        "slot": 105403780121
+      },
+      {
+        "record": 195514807509,
+        "slot": 127320661696
+      },
+      {
+        "record": 87573110188,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Kerry's revolver with rapid-fire bonuses."
+  },
+  {
+    "key": "Preset_Zhuo_Eight_Star",
+    "name": "Ба Синчун",
+    "name_en": "Ba Xing Chong",
+    "record": "Items.Preset_Zhuo_Eight_Star",
+    "kind": "Wea_Shotgun",
+    "description": "Стреляет взрывными снарядами и разрывает врагов на куски.",
+    "source": "Каюта Смэшера на «Эбунике» после финала; изготовление по чертежу.",
+    "source_en": "Craft from the spec in Smasher's Ebunike stash after the ending.",
+    "aliases": [
+      112433073058,
+      114301773112,
+      122863027563,
+      123573831248,
+      130443836480,
+      130479480615,
+      136266832492,
+      137641934169
+    ],
+    "group": "Preset_Zhuo_Eight_Star",
+    "limit": 1,
+    "image": "zhuo_eight_star",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 156076538337,
+        "slot": 105238933355
+      },
+      {
+        "record": 160095722002,
+        "slot": 97104548228
+      },
+      {
+        "record": 171010623207,
+        "slot": 105403780121
+      },
+      {
+        "record": 173186387776,
+        "slot": 127320661696
+      },
+      {
+        "record": 124280076238,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Smart shotgun firing explosive projectiles."
+  },
+  {
+    "key": "Preset_Pulsar_Buzzsaw",
+    "name": "Бензопила",
+    "name_en": "Buzzsaw",
+    "record": "Items.Preset_Pulsar_Buzzsaw",
+    "kind": "Wea_SubmachineGun",
+    "description": "Позволяет выпускать бронебойные снаряды благодаря необычной модификации.",
+    "source": "Организованная преступность: «Полиция нравов»; чертёж.",
+    "source_en": "Suspected Organized Crime: Vice Control; crafting spec.",
+    "aliases": [
+      107906495529,
+      109362137618,
+      119133156718,
+      119254122518,
+      128060403464,
+      130580361762,
+      137634281373,
+      162500209465
+    ],
+    "group": "Preset_Pulsar_Buzzsaw",
+    "limit": 1,
+    "image": "pulsar_buzzsaw",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 178545029300,
+        "slot": 105238933355
+      },
+      {
+        "record": 181960933728,
+        "slot": 97104548228
+      },
+      {
+        "record": 189795896874,
+        "slot": 105403780121
+      },
+      {
+        "record": 196352311749,
+        "slot": 127320661696
+      },
+      {
+        "record": 121274300002,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "SMG firing penetrating rounds."
+  },
+  {
+    "key": "Preset_Katana_Wakako",
+    "name": "Бякко",
+    "name_en": "Byakko",
+    "record": "Items.Preset_Katana_Wakako",
+    "kind": "Wea_Katana",
+    "description": "Позволяет мгновенно перемещаться к врагу, нанося ему сильный удар.",
+    "source": "Все заказы Вакако; «Чёрная вдова».",
+    "source_en": "All Wakako gigs; Professional Widow.",
+    "aliases": [
+      114208877831,
+      127707712214,
+      129553456411,
+      156059519844
+    ],
+    "group": "Preset_Katana_Wakako",
+    "limit": 1,
+    "image": "katana_wakako",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 116893503795,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Katana with a leaping attack and faster combos after kills."
+  },
+  {
+    "key": "Preset_Dildo_Stout",
+    "name": "Встанислав Шишкин",
+    "name_en": "Sir John Phallustiff",
+    "record": "Items.Preset_Dildo_Stout",
+    "kind": "Wea_OneHandedClub",
+    "description": "Лупи врагов по морде и смотри, как их корячит от унижения, ведь это увеличивает вероятность критического урона! А если унижений недостаточно, можно добавить усилий и задоминировать — Встанислав умеет оглушать.",
+    "source": "Мередит Стаут: «Венера в мехах».",
+    "source_en": "Meredith Stout: Venus in Furs.",
+    "aliases": [
+      84712109450,
+      105037104197,
+      126565495681,
+      148573939178
+    ],
+    "group": "Preset_Dildo_Stout",
+    "limit": 1,
+    "image": "dildo_stout",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 78067384436,
+        "slot": 88002875893
+      },
+      {
+        "record": 86540505444,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Blunt weapon with critical-hit and stun effects."
+  },
+  {
+    "key": "Preset_Punk_Knife_Iconic",
+    "name": "Головорез",
+    "name_en": "Headhunter",
+    "record": "Items.Preset_Punk_Knife_Iconic",
+    "kind": "Wea_Knife",
+    "description": "Метательный нож помечает цель и усиливает последующее попадание в голову.",
+    "source": "Продавец оружия ближнего боя в «Западном ветре», Пасифика.",
+    "source_en": "Melee vendor in West Wind Estate, Pacifica.",
+    "aliases": [
+      129109098868,
+      154010918730,
+      175446432163
+    ],
+    "group": "Preset_Punk_Knife_Iconic",
+    "limit": 1,
+    "image": "punk_knife_iconic",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 100115131430,
+        "slot": 88002875893
+      },
+      {
+        "record": 132250857654,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Throwing knife that marks targets for headshots."
+  },
+  {
+    "key": "Preset_Liberty_Rogue",
+    "name": "Гордость",
+    "name_en": "Pride",
+    "record": "Items.Preset_Liberty_Rogue",
+    "kind": "Wea_Handgun",
+    "description": "Временно не расходует боеприпасы после обезвреживания врага из стандартной штурмовой винтовки Предубеждение.",
+    "source": "Бестия: «Последнее танго в Найт-Сити».",
+    "source_en": "Rogue: Knockin' on Heaven's Door.",
+    "aliases": [
+      114971970752,
+      138766079860
+    ],
+    "group": "Preset_Liberty_Rogue",
+    "limit": 2,
+    "image": "liberty_rogue",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 195954861098,
+        "slot": 105238933355
+      },
+      {
+        "record": 198810923575,
+        "slot": 97104548228
+      },
+      {
+        "record": 206364045957,
+        "slot": 105403780121
+      },
+      {
+        "record": 214510848320,
+        "slot": 127320661696
+      },
+      {
+        "record": 116764870341,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Rogue's pistol with first-shot and headshot bonuses."
+  },
+  {
+    "key": "Preset_Achilles_Nash",
+    "name": "Губитель",
+    "name_en": "Widow Maker",
+    "record": "Items.Preset_Achilles_Nash",
+    "kind": "Wea_PrecisionRifle",
+    "description": "Выпускает две пули за выстрел и наносит химический урон.",
+    "source": "Нэш: «На перепутье»; зависит от выбранного пути.",
+    "source_en": "Nash: Ghost Town; depends on your choices.",
+    "aliases": [
+      112849917756,
+      129644103887,
+      135878147169,
+      138087559986,
+      156554981398
+    ],
+    "group": "Preset_Achilles_Nash",
+    "limit": 1,
+    "image": "achilles_nash",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 208497889580,
+        "slot": 105238933355
+      },
+      {
+        "record": 213196142519,
+        "slot": 97104548228
+      },
+      {
+        "record": 220245587766,
+        "slot": 105403780121
+      },
+      {
+        "record": 226089026291,
+        "slot": 127320661696
+      },
+      {
+        "record": 84905933801,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Tech precision rifle with chemical damage."
+  },
+  {
+    "key": "Preset_Yukimura_Kiji",
+    "name": "Гэндзиро",
+    "name_en": "Genjiroh",
+    "record": "Items.Preset_Yukimura_Kiji",
+    "kind": "Wea_Handgun",
+    "description": "Позволяет выпускать 4 снаряда в очереди, увеличивает размер магазина и скорость снаряда.",
+    "source": "«Аудиенция»; также поместье Арасаки.",
+    "source_en": "Play It Safe; also the Arasaka Estate.",
+    "aliases": [
+      114345134849,
+      127612187860,
+      154806364309
+    ],
+    "group": "Preset_Yukimura_Kiji",
+    "limit": 1,
+    "image": "yukimura_kiji",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 170975945931,
+        "slot": 105238933355
+      },
+      {
+        "record": 174438024409,
+        "slot": 97104548228
+      },
+      {
+        "record": 182945197202,
+        "slot": 105403780121
+      },
+      {
+        "record": 186605662169,
+        "slot": 127320661696
+      },
+      {
+        "record": 119582640997,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Smart pistol with multi-target bursts."
+  },
+  {
+    "key": "Preset_Katana_Takemura",
+    "name": "Дзинтю-Мару",
+    "name_en": "Jinchu-maru",
+    "record": "Items.Preset_Katana_Takemura",
+    "kind": "Wea_Katana",
+    "description": "Наносит критический урон последней атакой в комбо.",
+    "source": "Ода: «Аудиенция».",
+    "source_en": "Oda: Play It Safe.",
+    "aliases": [
+      120849358287,
+      130315975807,
+      165570575705
+    ],
+    "group": "Preset_Katana_Takemura",
+    "limit": 1,
+    "image": "katana_takemura",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 127655416775,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Katana with optical-camo and combo bonuses."
+  },
+  {
+    "key": "Preset_Baton_Tinker_Bell",
+    "name": "Динь-Динь",
+    "name_en": "Tinker Bell",
+    "record": "Items.Preset_Baton_Tinker_Bell",
+    "kind": "Wea_OneHandedClub",
+    "description": "Позволяет сбивать врагов с ног при сильной атаке, но наносит меньше урона.",
+    "source": "Ферма Харриса: «Охота на охотника».",
+    "source_en": "Harris farm: The Hunt.",
+    "aliases": [
+      118153515746,
+      132085382957,
+      152020392268,
+      174094936632
+    ],
+    "group": "Preset_Baton_Tinker_Bell",
+    "limit": 1,
+    "image": "baton_tinker_bell",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 136576551676,
+        "slot": 88002875893
+      },
+      {
+        "record": 110298503747,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Club with powerful knockdown attacks."
+  },
+  {
+    "key": "Preset_Knife_Stinger",
+    "name": "Жало",
+    "name_en": "Stinger",
+    "record": "Items.Preset_Knife_Stinger",
+    "kind": "Wea_Knife",
+    "description": "Вызывает кровотечение с вероятностью 100%, когда вы атакуете отравленных врагов.",
+    "source": "Митч: «Дорога в рай».",
+    "source_en": "Mitch: I'll Fly Away.",
+    "aliases": [
+      115031368875,
+      117226459777,
+      133577490788,
+      156891645118
+    ],
+    "group": "Preset_Knife_Stinger",
+    "limit": 1,
+    "image": "knife_stinger",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 107714030146,
+        "slot": 88002875893
+      },
+      {
+        "record": 122566594260,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Knife combining bleeding and poison effects."
+  },
+  {
+    "key": "Preset_Nova_Doom_Doom",
+    "name": "Звезда Дум-Дума",
+    "name_en": "Doom Doom",
+    "record": "Items.Preset_Nova_Doom_Doom",
+    "kind": "Wea_Revolver",
+    "description": "Выпускает 4 снаряда за выстрел.",
+    "source": "Дум-Дум: «Новый поворот»; зависит от ранних решений.",
+    "source_en": "Dum Dum: Second Conflict; depends on earlier choices.",
+    "aliases": [
+      116217628139,
+      139414832637,
+      139682158414,
+      160873068861
+    ],
+    "group": "Preset_Nova_Doom_Doom",
+    "limit": 2,
+    "image": "nova_doom_doom",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 148556609324,
+        "slot": 105238933355
+      },
+      {
+        "record": 153065303825,
+        "slot": 97104548228
+      },
+      {
+        "record": 159853164194,
+        "slot": 105403780121
+      },
+      {
+        "record": 164633166063,
+        "slot": 127320661696
+      },
+      {
+        "record": 100923357263,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Revolver firing multiple projectiles per shot."
+  },
+  {
+    "key": "Preset_Dian_Yinglong",
+    "name": "Иньлун",
+    "name_en": "Yinglong",
+    "record": "Items.Preset_Dian_Yinglong",
+    "kind": "Wea_SubmachineGun",
+    "description": "Наносит дополнительный электрический урон.",
+    "source": "Организованная преступность: «Большие тела, большие дела»; чертёж.",
+    "source_en": "Suspected Organized Crime: Living the Big Life; crafting spec.",
+    "aliases": [
+      104422149385,
+      105519728794,
+      113627266040,
+      113972519344,
+      122125152428,
+      125073678802,
+      132093995491
+    ],
+    "group": "Preset_Dian_Yinglong",
+    "limit": 1,
+    "image": "dian_yinglong",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 139386554978,
+        "slot": 105238933355
+      },
+      {
+        "record": 142587591803,
+        "slot": 97104548228
+      },
+      {
+        "record": 153397569383,
+        "slot": 105403780121
+      },
+      {
+        "record": 157830102593,
+        "slot": 127320661696
+      },
+      {
+        "record": 119837222779,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Smart SMG with electrical damage and EMP effects."
+  },
+  {
+    "key": "Preset_Katana_Cocktail",
+    "name": "Коктейльная палочка",
+    "name_en": "Cocktail Stick",
+    "record": "Items.Preset_Katana_Cocktail",
+    "kind": "Wea_Katana",
+    "description": "При попадании во время действия оптической маскировки вызывает кровотечение, которое длится дольше обычного.",
+    "source": "Гримёрка «Облаков»: «Кукольный домик».",
+    "source_en": "Clouds dressing room: Automatic Love.",
+    "aliases": [
+      123341178418,
+      127647608492,
+      130191341670,
+      143651061738,
+      165730279196
+    ],
+    "group": "Preset_Katana_Cocktail",
+    "limit": 1,
+    "image": "katana_cocktail",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 123140582622,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Katana with bleeding bonuses while using optical camo."
+  },
+  {
+    "key": "Preset_Liberty_Yorinobu",
+    "name": "Конго",
+    "name_en": "Kongou",
+    "record": "Items.Preset_Liberty_Yorinobu",
+    "kind": "Wea_Handgun",
+    "description": "Позволяет использовать технологию рикошета, не обладая необходимыми имплантами.",
+    "source": "Пентхаус Ёринобу: «Пропуск в высшую лигу».",
+    "source_en": "Yorinobu's penthouse: The Heist.",
+    "aliases": [
+      112897515410,
+      126474443908,
+      148198363313,
+      171773959997
+    ],
+    "group": "Preset_Liberty_Yorinobu",
+    "limit": 2,
+    "image": "liberty_yorinobu",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 195954861098,
+        "slot": 105238933355
+      },
+      {
+        "record": 198810923575,
+        "slot": 97104548228
+      },
+      {
+        "record": 206364045957,
+        "slot": 105403780121
+      },
+      {
+        "record": 214510848320,
+        "slot": 127320661696
+      },
+      {
+        "record": 133048290194,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Yorinobu's compact ricochet pistol."
+  },
+  {
+    "key": "Preset_Tactician_Dino",
+    "name": "Кровавая Мария",
+    "name_en": "Bloody Maria",
+    "record": "Items.Preset_Tactician_Dino",
+    "kind": "Wea_Shotgun",
+    "description": "Повышает вероятность отправить в нокдаун, расчленить и вызвать кровотечение.",
+    "source": "Все заказы Эль Капитана; «Капитан, мой капитан».",
+    "source_en": "All El Capitan gigs; Ride Captain Ride.",
+    "aliases": [
+      117746986103,
+      162642587283
+    ],
+    "group": "Preset_Tactician_Dino",
+    "limit": 1,
+    "image": "tactician_dino",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 195713359887,
+        "slot": 105238933355
+      },
+      {
+        "record": 197585771380,
+        "slot": 97104548228
+      },
+      {
+        "record": 209974983861,
+        "slot": 105403780121
+      },
+      {
+        "record": 214075294562,
+        "slot": 127320661696
+      },
+      {
+        "record": 123630042158,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Shotgun with bleeding, knockdown and dismemberment effects."
+  },
+  {
+    "key": "Preset_Overture_River",
+    "name": "Крэш",
+    "name_en": "Crash",
+    "record": "Items.Preset_Overture_River",
+    "kind": "Wea_Revolver",
+    "description": "Позволяет перейти в авторежим при кратковременном усилении выстрела во время прицеливания.",
+    "source": "Ривер: «Мальчик с пистолетом».",
+    "source_en": "River: Following the River.",
+    "aliases": [
+      96278516913,
+      118770149919,
+      163178160228
+    ],
+    "group": "Preset_Overture_River",
+    "limit": 2,
+    "image": "overture_river",
+    "quest_sensitive": true,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 176392927689,
+        "slot": 105238933355
+      },
+      {
+        "record": 182326412904,
+        "slot": 97104548228
+      },
+      {
+        "record": 193230437638,
+        "slot": 105403780121
+      },
+      {
+        "record": 195514807509,
+        "slot": 127320661696
+      },
+      {
+        "record": 87203182267,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "River's revolver with a charged automatic firing mode."
+  },
+  {
+    "key": "Preset_Nue_Jackie",
+    "name": "Ла Чингона Дорада",
+    "name_en": "La Chingona Dorada",
+    "record": "Items.Preset_Nue_Jackie",
+    "kind": "Wea_Handgun",
+    "description": "Ненадолго увеличивает критический урон и повышает вероятность поджечь врага при каждом попадании в голову.",
+    "source": "Алтарь Джеки в «Эль Койоте Кохо» после «До встречи в Посмертии».",
+    "source_en": "Jackie's ofrenda at El Coyote Cojo after Heroes.",
+    "aliases": [
+      98793512338,
+      122936272008,
+      130972252533,
+      143829939072,
+      145521891646
+    ],
+    "group": "Preset_Nue_Jackie",
+    "limit": 2,
+    "image": "nue_jackie",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 148727636493,
+        "slot": 105238933355
+      },
+      {
+        "record": 154337299738,
+        "slot": 97104548228
+      },
+      {
+        "record": 160922149698,
+        "slot": 105403780121
+      },
+      {
+        "record": 167313697282,
+        "slot": 127320661696
+      },
+      {
+        "record": 107240511190,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Jackie's pistol with headshot bonuses."
+  },
+  {
+    "key": "Preset_Lexington_Shooting_Competition",
+    "name": "Лексингтон x-MOD2",
+    "name_en": "Lexington x-MOD2",
+    "record": "Items.Preset_Lexington_Shooting_Competition",
+    "kind": "Wea_Handgun",
+    "description": "Призовой пистолет Уилсона с ячейками для модификаций.",
+    "source": "Победа в соревновании Уилсона: «Цельсь, пли!».",
+    "source_en": "Win Wilson's shooting contest: Shoot to Thrill.",
+    "aliases": [
+      187148706949
+    ],
+    "group": "Preset_Lexington_Shooting_Competition",
+    "limit": 2,
+    "image": "lexington_shooting_competition",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 173147289394,
+        "slot": 105238933355
+      },
+      {
+        "record": 177598290546,
+        "slot": 97104548228
+      },
+      {
+        "record": 187719905948,
+        "slot": 105403780121
+      },
+      {
+        "record": 191478684288,
+        "slot": 127320661696
+      },
+      {
+        "record": 182584058751,
+        "slot": 91724734610
+      },
+      {
+        "record": 141632615594,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Wilson's competition pistol with modification slots."
+  },
+  {
+    "key": "Preset_Omaha_Suzie",
+    "name": "Лиззи",
+    "name_en": "Lizzie",
+    "record": "Items.Preset_Omaha_Suzie",
+    "kind": "Wea_Handgun",
+    "description": "Выпускает дополнительный снаряд за выстрел.",
+    "source": "Подвал бара «Лиззис», начиная с акта II.",
+    "source_en": "Lizzie's Bar basement from Act II.",
+    "aliases": [
+      105330561391,
+      125240241001,
+      135570886410,
+      149233883980
+    ],
+    "group": "Preset_Omaha_Suzie",
+    "limit": 1,
+    "image": "omaha_suzie",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 162039687360,
+        "slot": 105238933355
+      },
+      {
+        "record": 163392747997,
+        "slot": 97104548228
+      },
+      {
+        "record": 175334126513,
+        "slot": 105403780121
+      },
+      {
+        "record": 179595757300,
+        "slot": 127320661696
+      },
+      {
+        "record": 86778465595,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Tech pistol firing extra projectiles when charged."
+  },
+  {
+    "key": "Preset_Shovel_Caretaker",
+    "name": "Лопата Ключника",
+    "name_en": "Caretaker's Spade",
+    "record": "Items.Preset_Shovel_Caretaker",
+    "kind": "Wea_Hammer",
+    "description": "Выглядит как обычная лопата из другого измерения.",
+    "source": "«Последнее танго в Найт-Сити».",
+    "source_en": "Knockin' on Heaven's Door.",
+    "aliases": [
+      87234821916,
+      125119785136,
+      152661892674
+    ],
+    "group": "Preset_Shovel_Caretaker",
+    "limit": 1,
+    "image": "shovel_caretaker",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85381688735,
+        "slot": 88002875893
+      },
+      {
+        "record": 107585024087,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "A heavy shovel used as a melee weapon."
+  },
+  {
+    "key": "Preset_Silverhand_3516",
+    "name": "Малориан армс 3516",
+    "name_en": "Malorian Arms 3516",
+    "record": "Items.Preset_Silverhand_3516",
+    "kind": "Wea_Handgun",
+    "description": "Может стрелять в трёх режимах: рикошет, пробитие стен и поджигание.",
+    "source": "Грейсон: «По следам прошлого».",
+    "source_en": "Grayson: Chippin' In.",
+    "aliases": [
+      124491260803,
+      134890700581
+    ],
+    "group": "Preset_Silverhand_3516",
+    "limit": 2,
+    "image": "silverhand_3516",
+    "quest_sensitive": true,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 182504982404,
+        "slot": 105238933355
+      },
+      {
+        "record": 186755745851,
+        "slot": 97104548228
+      },
+      {
+        "record": 193544360996,
+        "slot": 105403780121
+      },
+      {
+        "record": 198912393176,
+        "slot": 127320661696
+      },
+      {
+        "record": 128525479984,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Johnny Silverhand's signature pistol."
+  },
+  {
+    "key": "Preset_Ajax_Moron",
+    "name": "Молон лабе",
+    "name_en": "Moron Labe",
+    "record": "Items.Preset_Ajax_Moron",
+    "kind": "Wea_Rifle",
+    "description": "Повышает вероятность критического попадания при расчленении врага, но постоянно меняет скорострельность, что затрудняет прицеливание.",
+    "source": "Организованная преступность в «Западном ветре»; чертёж.",
+    "source_en": "Organized crime in West Wind Estate; crafting spec.",
+    "aliases": [
+      90795304301,
+      93348402363,
+      102058723891,
+      102380532445,
+      110538622524,
+      113469420964,
+      145240399003
+    ],
+    "group": "Preset_Ajax_Moron",
+    "limit": 1,
+    "image": "ajax_moron",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 182780123419,
+        "slot": 105238933355
+      },
+      {
+        "record": 185149335728,
+        "slot": 97104548228
+      },
+      {
+        "record": 197354427692,
+        "slot": 105403780121
+      },
+      {
+        "record": 199147826923,
+        "slot": 127320661696
+      },
+      {
+        "record": 103782247471,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Assault rifle with dismemberment bonuses."
+  },
+  {
+    "key": "Preset_Hammer_Sasquatch",
+    "name": "Молот Сасквоч",
+    "name_en": "Sasquatch's Hammer",
+    "record": "Items.w_melee_boss_hammer",
+    "kind": "Wea_Hammer",
+    "description": "При каждом ударе расходует львиную долю запаса выносливости, но наносит большой урон.",
+    "source": "Сасквоч: «Распознавание образов».",
+    "source_en": "Sasquatch: I Walk the Line.",
+    "aliases": [
+      108190147132,
+      127620399788,
+      133726832965,
+      136794122609
+    ],
+    "group": "Preset_Hammer_Sasquatch",
+    "limit": 1,
+    "image": "hammer_sasquatch",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 113834426431,
+        "slot": 88002875893
+      },
+      {
+        "record": 112026930436,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "A heavy hammer with high stamina costs."
+  },
+  {
+    "key": "Preset_Burya_Comrade",
+    "name": "Молот товарища",
+    "name_en": "Comrade's Hammer",
+    "record": "Items.Preset_Burya_Comrade",
+    "kind": "Wea_Revolver",
+    "description": "Позволяет держать в магазине всего один патрон, начинённый взрывчаткой и наносящий огромный урон.",
+    "source": "Организованная преступность в Арройо; чертёж.",
+    "source_en": "Organized crime in Arroyo; crafting spec.",
+    "aliases": [
+      104951902691,
+      106013275248,
+      112929736466,
+      114737274202,
+      121612569670,
+      125114883384,
+      129630279938,
+      156839486804
+    ],
+    "group": "Preset_Burya_Comrade",
+    "limit": 1,
+    "image": "burya_comrade",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 177066299039,
+        "slot": 105238933355
+      },
+      {
+        "record": 184442461598,
+        "slot": 97104548228
+      },
+      {
+        "record": 191906820673,
+        "slot": 105403780121
+      },
+      {
+        "record": 195110373161,
+        "slot": 127320661696
+      },
+      {
+        "record": 112415875494,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Single-shot tech revolver with explosive ammunition."
+  },
+  {
+    "key": "Preset_Igla_Sovereign",
+    "name": "Монарх",
+    "name_en": "Sovereign",
+    "record": "Items.Preset_Igla_Sovereign",
+    "kind": "Wea_ShotgunDual",
+    "description": "Наносит критический урон при выстреле в упор.",
+    "source": "Организованная преступность: «Современный рынок труда»; чертёж.",
+    "source_en": "Suspected Organized Crime: Modern Labor Market; crafting spec.",
+    "aliases": [
+      110567470721,
+      110990854330,
+      116168719493,
+      117923629565,
+      124970783643,
+      131786755761,
+      141392154718,
+      159931875357
+    ],
+    "group": "Preset_Igla_Sovereign",
+    "limit": 1,
+    "image": "igla_sovereign",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 177101342275,
+        "slot": 105238933355
+      },
+      {
+        "record": 182515198505,
+        "slot": 97104548228
+      },
+      {
+        "record": 192391471553,
+        "slot": 105403780121
+      },
+      {
+        "record": 195431588186,
+        "slot": 127320661696
+      },
+      {
+        "record": 122747550531,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Double-barrel shotgun with close-range bonuses."
+  },
+  {
+    "key": "Preset_Dildo_SexShop",
+    "name": "МПХ-9000",
+    "name_en": "BFC 9000",
+    "record": "Items.Preset_Dildo_SexShop",
+    "kind": "Wea_OneHandedClub",
+    "description": "Существенно повышает вероятность критического попадания при высоком уровне выносливости.",
+    "source": "Хьюго Селвиг, скалы у дамбы в Ранчо Коронадо.",
+    "source_en": "Hugo Selvig, cliffs near the Rancho Coronado dam.",
+    "aliases": [
+      115762081563,
+      130530298433,
+      133778394460
+    ],
+    "group": "Preset_Dildo_SexShop",
+    "limit": 1,
+    "image": "dildo_sexshop",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 78067384436,
+        "slot": 88002875893
+      },
+      {
+        "record": 119833815851,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Oversized blunt melee weapon."
+  },
+  {
+    "key": "Preset_Kenshin_Frank",
+    "name": "Наваждение",
+    "name_en": "Apparition",
+    "record": "Items.Preset_Kenshin_Frank",
+    "kind": "Wea_Handgun",
+    "description": "Электромагнитный пистолет с усилением при критически низком здоровье.",
+    "source": "Фрэнк: «Корпоративная культура», предыстория корпората.",
+    "source_en": "Frank: War Pigs, Corpo life path.",
+    "aliases": [
+      114306797067,
+      155108815748
+    ],
+    "group": "Preset_Kenshin_Frank",
+    "limit": 1,
+    "image": "kenshin_frank",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 165050981025,
+        "slot": 105238933355
+      },
+      {
+        "record": 168318842721,
+        "slot": 97104548228
+      },
+      {
+        "record": 179953878992,
+        "slot": 105403780121
+      },
+      {
+        "record": 184318442254,
+        "slot": 127320661696
+      },
+      {
+        "record": 89682376096,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Tech pistol with bonuses at low health."
+  },
+  {
+    "key": "Preset_Grad_Panam",
+    "name": "Надзор",
+    "name_en": "Overwatch",
+    "record": "Items.Preset_Grad_Panam",
+    "kind": "Wea_SniperRifle",
+    "description": "Снайперская винтовка Панам со встроенным глушителем и ускоренной перезарядкой.",
+    "source": "Панам: «Оседлавшие бурю».",
+    "source_en": "Panam: Riders on the Storm.",
+    "aliases": [
+      99108122247,
+      123615939292,
+      132037499210,
+      145493115920
+    ],
+    "group": "Preset_Grad_Panam",
+    "limit": 1,
+    "image": "grad_panam",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 190546331378,
+        "slot": 105238933355
+      },
+      {
+        "record": 196541352819,
+        "slot": 97104548228
+      },
+      {
+        "record": 203410455286,
+        "slot": 105403780121
+      },
+      {
+        "record": 207107104142,
+        "slot": 127320661696
+      },
+      {
+        "record": 74585705996,
+        "slot": 91724734610
+      },
+      {
+        "record": 88494822302,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Panam's sniper rifle with a built-in suppressor."
+  },
+  {
+    "key": "Preset_Grad_Buck",
+    "name": "Ноль-пять",
+    "name_en": "O'Five",
+    "record": "Items.Preset_Grad_Buck",
+    "kind": "Wea_SniperRifle",
+    "description": "Выпусти на свободу внутреннего пироманьяка и освети жизнь врагов взрывными пулями.",
+    "source": "Бак: «Кровь и кость: Арройо».",
+    "source_en": "Buck: Beat on the Brat: Arroyo.",
+    "aliases": [
+      89451282238,
+      97078780600,
+      139193974232,
+      139294929966
+    ],
+    "group": "Preset_Grad_Buck",
+    "limit": 1,
+    "image": "grad_buck",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 190546331378,
+        "slot": 105238933355
+      },
+      {
+        "record": 196541352819,
+        "slot": 97104548228
+      },
+      {
+        "record": 203410455286,
+        "slot": 105403780121
+      },
+      {
+        "record": 207107104142,
+        "slot": 127320661696
+      },
+      {
+        "record": 71302796963,
+        "slot": 91724734610
+      },
+      {
+        "record": 81951239001,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Sniper rifle firing explosive ammunition."
+  },
+  {
+    "key": "Preset_Tanto_Saburo",
+    "name": "Нэхан",
+    "name_en": "Nehan",
+    "record": "Items.Preset_Tanto_Saburo",
+    "kind": "Wea_Knife",
+    "description": "Вызывает кровотечение при попадании.",
+    "source": "Сабуро: «Пропуск в высшую лигу».",
+    "source_en": "Saburo: The Heist.",
+    "aliases": [
+      107828440067,
+      149566682517
+    ],
+    "group": "Preset_Tanto_Saburo",
+    "limit": 1,
+    "image": "tanto_saburo",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 104162107662,
+        "slot": 88002875893
+      },
+      {
+        "record": 112942143501,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Saburo's throwing knife; pairs with Satori."
+  },
+  {
+    "key": "Preset_Tactician_Headsman",
+    "name": "Палач",
+    "name_en": "The Headsman",
+    "record": "Items.Preset_Tactician_Headsman",
+    "kind": "Wea_Shotgun",
+    "description": "Стреляет убийственно точно и далеко благодаря уникальному прицелу и замену дроби на один патрон.",
+    "source": "Организованная преступность: «Политика конфиденциальности»; чертёж.",
+    "source_en": "Suspected Organized Crime: Privacy Policy; crafting spec.",
+    "aliases": [
+      127721043470,
+      128395723457,
+      131406636541,
+      134602803837,
+      134927979852,
+      145532323179,
+      149961695231,
+      180072781220
+    ],
+    "group": "Preset_Tactician_Headsman",
+    "limit": 1,
+    "image": "tactician_headsman",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 195713359887,
+        "slot": 105238933355
+      },
+      {
+        "record": 197585771380,
+        "slot": 97104548228
+      },
+      {
+        "record": 209974983861,
+        "slot": 105403780121
+      },
+      {
+        "record": 214075294562,
+        "slot": 127320661696
+      },
+      {
+        "record": 89595352158,
+        "slot": 91724734610
+      },
+      {
+        "record": 141221213065,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Precision shotgun firing a single projectile."
+  },
+  {
+    "key": "Preset_Liberty_Dex",
+    "name": "План Б",
+    "name_en": "Plan B",
+    "record": "Items.Preset_Liberty_Dex",
+    "kind": "Wea_Handgun",
+    "description": "Повышает вероятность вызвать кровотечение, но расходует деньги при каждом выстреле.",
+    "source": "Тело Декстера на свалке после начала акта II.",
+    "source_en": "Dexter's body at the landfill from Act II.",
+    "aliases": [
+      103789420054,
+      127929117080,
+      149221223828
+    ],
+    "group": "Preset_Liberty_Dex",
+    "limit": 2,
+    "image": "liberty_dex",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 195954861098,
+        "slot": 105238933355
+      },
+      {
+        "record": 198810923575,
+        "slot": 97104548228
+      },
+      {
+        "record": 206364045957,
+        "slot": 105403780121
+      },
+      {
+        "record": 214510848320,
+        "slot": 127320661696
+      },
+      {
+        "record": 110514521674,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Dexter's pistol; consumes money when fired."
+  },
+  {
+    "key": "Preset_Baseball_Bat_Denny",
+    "name": "Позолоченная бейсбольная бита",
+    "name_en": "Gold-plated baseball bat",
+    "record": "Items.Preset_Baseball_Bat_Denny",
+    "kind": "Wea_TwoHandedClub",
+    "description": "Позволяет с высокой вероятностью вызывать кровотечение и с низкой вероятностью оглушать врагов.",
+    "source": "Особняк Денни: «Новый поворот».",
+    "source_en": "Denny's mansion: Second Conflict.",
+    "aliases": [
+      134756769924,
+      156178608456,
+      176662435979
+    ],
+    "group": "Preset_Baseball_Bat_Denny",
+    "limit": 1,
+    "image": "baseball_bat_denny",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 139964611956,
+        "slot": 88002875893
+      },
+      {
+        "record": 103246580279,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Denny's bat with bleeding and stun effects."
+  },
+  {
+    "key": "Preset_Masamune_Rogue",
+    "name": "Предубеждение",
+    "name_en": "Prejudice",
+    "record": "Items.Preset_Masamune_Rogue",
+    "kind": "Wea_Rifle",
+    "description": "Стреляет бронебойными снарядами.",
+    "source": "«Как в старые добрые времена», путь Бестии.",
+    "source_en": "For Whom the Bell Tolls, Rogue's ending path.",
+    "aliases": [
+      117480008621,
+      144929198862
+    ],
+    "group": "Preset_Masamune_Rogue",
+    "limit": 1,
+    "image": "masamune_rogue",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 193579964505,
+        "slot": 105238933355
+      },
+      {
+        "record": 201840821947,
+        "slot": 97104548228
+      },
+      {
+        "record": 209583055948,
+        "slot": 105403780121
+      },
+      {
+        "record": 210783694210,
+        "slot": 127320661696
+      },
+      {
+        "record": 121871484599,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Rogue's assault rifle with penetrating ammunition."
+  },
+  {
+    "key": "Preset_Nekomata_Breakthrough",
+    "name": "Прорыв",
+    "name_en": "Breakthrough",
+    "record": "Items.Preset_Nekomata_Breakthrough",
+    "kind": "Wea_SniperRifle",
+    "description": "Может заряжаться при стрельбе от бедра.",
+    "source": "Организованная преступность: «Новый босс — новые правила»; чертёж.",
+    "source_en": "Suspected Organized Crime: New Boss, New Rules; crafting spec.",
+    "aliases": [
+      138115891944,
+      140658494727,
+      148413599920,
+      148866078829,
+      155382747930,
+      160188695468,
+      192328950628
+    ],
+    "group": "Preset_Nekomata_Breakthrough",
+    "limit": 1,
+    "image": "nekomata_breakthrough",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 191624057641,
+        "slot": 105238933355
+      },
+      {
+        "record": 196813970810,
+        "slot": 97104548228
+      },
+      {
+        "record": 205659826079,
+        "slot": 105403780121
+      },
+      {
+        "record": 206365734575,
+        "slot": 127320661696
+      },
+      {
+        "record": 105315319745,
+        "slot": 91724734610
+      },
+      {
+        "record": 150421869785,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Tech sniper rifle with wall-penetrating shots."
+  },
+  {
+    "key": "Preset_Shingen_Prototype",
+    "name": "Прототип: Сингэн (вер. 5)",
+    "name_en": "Prototype: Shingen Mark V",
+    "record": "Items.Preset_Shingen_Prototype",
+    "kind": "Wea_SubmachineGun",
+    "description": "Стреляет взрывными снарядами.",
+    "source": "Контейнер на территории «Арасаки»: «На мягких лапах».",
+    "source_en": "Container in Arasaka Industrial Park: Gimme Danger.",
+    "aliases": [
+      127796266050,
+      130853025687,
+      136489583193
+    ],
+    "group": "Preset_Shingen_Prototype",
+    "limit": 1,
+    "image": "shingen_prototype",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 191051989006,
+        "slot": 105238933355
+      },
+      {
+        "record": 195268595970,
+        "slot": 97104548228
+      },
+      {
+        "record": 205649837702,
+        "slot": 105403780121
+      },
+      {
+        "record": 207906633462,
+        "slot": 127320661696
+      },
+      {
+        "record": 133564528188,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Smart SMG with explosive multi-target projectiles."
+  },
+  {
+    "key": "Preset_Copperhead_Genesis",
+    "name": "Псалом 10:6",
+    "name_en": "Psalm 11:6",
+    "record": "Items.Preset_Copperhead_Genesis",
+    "kind": "Wea_Rifle",
+    "description": "Превращает врагов в горстки тлеющих углей и серы.",
+    "source": "Организованная преступность: «Скажи наркотикам нет»; чертёж.",
+    "source_en": "Suspected Organized Crime: Just Say No; crafting spec.",
+    "aliases": [
+      125323640289,
+      126531782958,
+      135825618269,
+      135886023276,
+      142459714123,
+      146621096159,
+      154742623191,
+      179813953362
+    ],
+    "group": "Preset_Copperhead_Genesis",
+    "limit": 1,
+    "image": "copperhead_genesis",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 201745688630,
+        "slot": 105238933355
+      },
+      {
+        "record": 203447567732,
+        "slot": 97104548228
+      },
+      {
+        "record": 210880470714,
+        "slot": 105403780121
+      },
+      {
+        "record": 215950348689,
+        "slot": 127320661696
+      },
+      {
+        "record": 138823318091,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Assault rifle with incendiary effects."
+  },
+  {
+    "key": "Preset_Butchers_Knife_Iconic",
+    "name": "Разделочный нож мясника",
+    "name_en": "Butcher's Cleaver",
+    "record": "Items.Preset_Butchers_Knife_Iconic",
+    "kind": "Wea_LongBlade",
+    "description": "Тесак: атаки по истекающим кровью врагам быстрее и требуют меньше выносливости.",
+    "source": "Пласид: «Потерянный рай».",
+    "source_en": "Placide: M'ap Tann Pelen.",
+    "aliases": [
+      148294426646,
+      168766943094,
+      192581362210
+    ],
+    "group": "Preset_Butchers_Knife_Iconic",
+    "limit": 1,
+    "image": "butchers_knife_iconic",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 149628989012,
+        "slot": 88002875893
+      },
+      {
+        "record": 121994508209,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Cleaver with bonuses against bleeding targets."
+  },
+  {
+    "key": "Preset_Saratoga_Raffen",
+    "name": "Решала",
+    "name_en": "Problem Solver",
+    "record": "Items.Preset_Saratoga_Raffen",
+    "kind": "Wea_SubmachineGun",
+    "description": "Увеличивает размер магазина до 85 патронов и обеспечивает почти утроенную скорострельность.",
+    "source": "Лагерь «Духов»: «Оседлавшие бурю».",
+    "source_en": "Wraith camp: Riders on the Storm.",
+    "aliases": [
+      120860352331,
+      122146582384,
+      143295929475,
+      164786225965
+    ],
+    "group": "Preset_Saratoga_Raffen",
+    "limit": 1,
+    "image": "saratoga_raffen",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 198578723365,
+        "slot": 105238933355
+      },
+      {
+        "record": 205522012312,
+        "slot": 97104548228
+      },
+      {
+        "record": 212478613949,
+        "slot": 105403780121
+      },
+      {
+        "record": 218399606517,
+        "slot": 127320661696
+      },
+      {
+        "record": 124706107979,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Very fast-firing SMG with a large magazine."
+  },
+  {
+    "key": "Preset_Katana_Saburo",
+    "name": "Сатори",
+    "name_en": "Satori",
+    "record": "Items.Preset_Katana_Saburo",
+    "kind": "Wea_Katana",
+    "description": "Катана Сабуро; сочетается с Нэханом и эффектами кровотечения.",
+    "source": "Ави Сабуро: «Пропуск в высшую лигу».",
+    "source_en": "Saburo's AV: The Heist.",
+    "aliases": [
+      115726582319,
+      134846790264,
+      158019871618
+    ],
+    "group": "Preset_Katana_Saburo",
+    "limit": 1,
+    "image": "katana_saburo",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 118786055915,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Saburo's katana; pairs with Nehan and bleeding effects."
+  },
+  {
+    "key": "Preset_Liberty_Padre",
+    "name": "Серафим",
+    "name_en": "Seraph",
+    "record": "Items.Preset_Liberty_Padre",
+    "kind": "Wea_Handgun",
+    "description": "С каждым попаданием повышает вероятность навлечь на врага очищающий огонь.",
+    "source": "Все заказы Падре; «Бог даёт».",
+    "source_en": "All Padre gigs; God Bless This Mess.",
+    "aliases": [
+      112000827405,
+      156281706958
+    ],
+    "group": "Preset_Liberty_Padre",
+    "limit": 2,
+    "image": "liberty_padre",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 195954861098,
+        "slot": 105238933355
+      },
+      {
+        "record": 198810923575,
+        "slot": 97104548228
+      },
+      {
+        "record": 206364045957,
+        "slot": 105403780121
+      },
+      {
+        "record": 214510848320,
+        "slot": 127320661696
+      },
+      {
+        "record": 118396698642,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Padre's pistol with fire and explosion effects."
+  },
+  {
+    "key": "Preset_Sidewinder_Divided",
+    "name": "Сила в конфликте",
+    "name_en": "Divided We Stand",
+    "record": "Items.Preset_Sidewinder_Divided",
+    "kind": "Wea_Rifle",
+    "description": "Позволяет отслеживать до пяти целей одновременно, но обладает пониженной точностью.",
+    "source": "«Босс умер, да здравствует босс».",
+    "source_en": "Stadium Love.",
+    "aliases": [
+      125140228972,
+      133500570538,
+      144041720643,
+      147730687046,
+      155955072641,
+      176604162209
+    ],
+    "group": "Preset_Sidewinder_Divided",
+    "limit": 1,
+    "image": "sidewinder_divided",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 198067902210,
+        "slot": 105238933355
+      },
+      {
+        "record": 203997990782,
+        "slot": 97104548228
+      },
+      {
+        "record": 213006318799,
+        "slot": 105403780121
+      },
+      {
+        "record": 216481270464,
+        "slot": 127320661696
+      },
+      {
+        "record": 139336733992,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Smart assault rifle with poison explosions."
+  },
+  {
+    "key": "Preset_Neurotoxin_Knife_Iconic",
+    "name": "Синий клык",
+    "name_en": "Blue Fang",
+    "record": "Items.Preset_Neurotoxin_Knife_Iconic",
+    "kind": "Wea_Knife",
+    "description": "Оглушает врага при попадании.",
+    "source": "Продавщица оружия ближнего боя на равнине Джексона.",
+    "source_en": "Melee vendor at Jackson Plains.",
+    "aliases": [
+      156652755247,
+      179441352551,
+      198430664925
+    ],
+    "group": "Preset_Neurotoxin_Knife_Iconic",
+    "limit": 1,
+    "image": "neurotoxin_knife_iconic",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 108432450126,
+        "slot": 88002875893
+      },
+      {
+        "record": 157386018403,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Throwing knife that stuns its targets."
+  },
+  {
+    "key": "Preset_Katana_Surgeon",
+    "name": "Скальпель",
+    "name_en": "Scalpel",
+    "record": "Items.Preset_Katana_Surgeon",
+    "kind": "Wea_Katana",
+    "description": "Электрическая катана с бонусами во время работы «Сандевистана».",
+    "source": "Деннис: «Номер один».",
+    "source_en": "Dennis: Big in Japan.",
+    "aliases": [
+      119335728359,
+      132080695342,
+      139021262706,
+      163021297350
+    ],
+    "group": "Preset_Katana_Surgeon",
+    "limit": 1,
+    "image": "katana_surgeon",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 120584604875,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Electrical katana with Sandevistan bonuses."
+  },
+  {
+    "key": "mq007_skippy",
+    "name": "Скиппи — до квеста",
+    "name_en": "Skippy — before quest",
+    "record": "Items.mq007_skippy",
+    "kind": "Wea_Handgun",
+    "description": "Говорящий умный пистолет с ИИ.",
+    "source": "Аллея в Виста-дель-Рей; вариант с ИИ и репликами.",
+    "source_en": "Alley in Vista del Rey; AI and dialogue variant.",
+    "aliases": [
+      81386061912,
+      120983482575
+    ],
+    "group": "skippy",
+    "limit": 1,
+    "image": "skippy",
+    "quest_sensitive": true,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 170975945931,
+        "slot": 105238933355
+      },
+      {
+        "record": 174438024409,
+        "slot": 97104548228
+      },
+      {
+        "record": 182945197202,
+        "slot": 105403780121
+      },
+      {
+        "record": 186605662169,
+        "slot": 127320661696
+      }
+    ],
+    "description_en": "AI dialogue variant. Speech and quest activation depend on the save's story state."
+  },
+  {
+    "key": "mq007_skippy_post_quest",
+    "name": "Скиппи — после квеста",
+    "name_en": "Skippy — after quest",
+    "record": "Items.mq007_skippy_post_quest",
+    "kind": "Wea_Handgun",
+    "description": "Послеквестовый Скиппи без ИИ и разговоров.",
+    "source": "Возвращается после передачи Реджине; вариант без ИИ.",
+    "source_en": "Returned after handing it to Regina; no AI.",
+    "aliases": [
+      127775905273,
+      163461820325
+    ],
+    "group": "skippy",
+    "limit": 1,
+    "image": "skippy",
+    "quest_sensitive": true,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 170975945931,
+        "slot": 105238933355
+      },
+      {
+        "record": 174438024409,
+        "slot": 97104548228
+      },
+      {
+        "record": 182945197202,
+        "slot": 105403780121
+      },
+      {
+        "record": 186605662169,
+        "slot": 127320661696
+      }
+    ],
+    "description_en": "Post-quest variant without the AI or its dialogue."
+  },
+  {
+    "key": "Preset_Nue_Maiko",
+    "name": "Смерть и налоги",
+    "name_en": "Death and Taxes",
+    "record": "Items.Preset_Nue_Maiko",
+    "kind": "Wea_Handgun",
+    "description": "Заключает с вами сделку, по условиям которой наносит огромный урон, но отнимает у вас здоровье с каждым выстрелом.",
+    "source": "Кабинет Майко: «Кукольные страсти».",
+    "source_en": "Maiko's office: Ex-Factor.",
+    "aliases": [
+      98060934832,
+      116135020814,
+      138692315760
+    ],
+    "group": "Preset_Nue_Maiko",
+    "limit": 2,
+    "image": "nue_maiko",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 148727636493,
+        "slot": 105238933355
+      },
+      {
+        "record": 154337299738,
+        "slot": 97104548228
+      },
+      {
+        "record": 160922149698,
+        "slot": 105403780121
+      },
+      {
+        "record": 167313697282,
+        "slot": 127320661696
+      },
+      {
+        "record": 100598376967,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Pistol trading the user's health for damage."
+  },
+  {
+    "key": "Preset_Kolac_Tiny_Mike",
+    "name": "Суперкритик",
+    "name_en": "Hypercritical",
+    "record": "Items.Preset_Kolac_Tiny_Mike",
+    "kind": "Wea_PrecisionRifle",
+    "description": "При попадании взрывает пули, сбивая с ног врагов.",
+    "source": "Мелкий Майк: заказ «Бетонная западня».",
+    "source_en": "Tiny Mike: Concrete Cage Trap gig.",
+    "aliases": [
+      121821868400,
+      141411800135,
+      164291637201
+    ],
+    "group": "Preset_Kolac_Tiny_Mike",
+    "limit": 1,
+    "image": "kolac_tiny_mike",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 99690429495,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Precision rifle firing explosive projectiles."
+  },
+  {
+    "key": "Preset_Lexington_Wilson",
+    "name": "Угасание ночи",
+    "name_en": "Dying Night",
+    "record": "Items.Preset_Lexington_Wilson",
+    "kind": "Wea_Handgun",
+    "description": "Наносит больше урона во время передвижения и электризует врага при быстрых ударах в ближнем бою.",
+    "source": "Уилсон: «Каждому свой „Лексингтон“».",
+    "source_en": "Wilson: The Gun.",
+    "aliases": [
+      92675597882,
+      92728768007,
+      95556881297,
+      116004762186,
+      124763843892,
+      128033545786,
+      135186885183,
+      145954470663,
+      146337715408,
+      147070783620,
+      148954798154,
+      170591024632
+    ],
+    "group": "Preset_Lexington_Wilson",
+    "limit": 2,
+    "image": "lexington_wilson",
+    "quest_sensitive": false,
+    "dual_wield": true,
+    "parts": [
+      {
+        "record": 173147289394,
+        "slot": 105238933355
+      },
+      {
+        "record": 177598290546,
+        "slot": 97104548228
+      },
+      {
+        "record": 187719905948,
+        "slot": 105403780121
+      },
+      {
+        "record": 191478684288,
+        "slot": 127320661696
+      },
+      {
+        "record": 92528649172,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Wilson's pistol with movement and melee bonuses."
+  },
+  {
+    "key": "Preset_Saratoga_Maelstrom",
+    "name": "Фенрир",
+    "name_en": "Fenrir",
+    "record": "Items.Preset_Saratoga_Maelstrom",
+    "kind": "Wea_SubmachineGun",
+    "description": "Наносит электрический урон и может отключить импланты врага.",
+    "source": "Склад «Мальстрёма»: «Священное и мирское».",
+    "source_en": "Maelstrom warehouse: Sacrum Profanum.",
+    "aliases": [
+      131909638517,
+      133864581632,
+      156374964626,
+      176663536447
+    ],
+    "group": "Preset_Saratoga_Maelstrom",
+    "limit": 1,
+    "image": "saratoga_maelstrom",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 198578723365,
+        "slot": 105238933355
+      },
+      {
+        "record": 205522012312,
+        "slot": 97104548228
+      },
+      {
+        "record": 212478613949,
+        "slot": 105403780121
+      },
+      {
+        "record": 218399606517,
+        "slot": 127320661696
+      },
+      {
+        "record": 139946365328,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "SMG with electrical damage and cyberware-disabling effects."
+  },
+  {
+    "key": "Preset_Kenshin_Royce",
+    "name": "Хаос",
+    "name_en": "Chaos",
+    "record": "Items.Preset_Kenshin_Royce",
+    "kind": "Wea_Handgun",
+    "description": "Случайным образом выбирает вероятность критического попадания, тип урона и ослабляющие эффекты при каждой перезарядке.",
+    "source": "Ройс: «Низвержение в Мальстрём».",
+    "source_en": "Royce: The Pickup.",
+    "aliases": [
+      112631589661,
+      115595497865,
+      135463909523,
+      155168234176
+    ],
+    "group": "Preset_Kenshin_Royce",
+    "limit": 1,
+    "image": "kenshin_royce",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 165050981025,
+        "slot": 105238933355
+      },
+      {
+        "record": 168318842721,
+        "slot": 97104548228
+      },
+      {
+        "record": 179953878992,
+        "slot": 105403780121
+      },
+      {
+        "record": 184318442254,
+        "slot": 127320661696
+      },
+      {
+        "record": 88885749445,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Tech pistol changing its damage effects on reload."
+  },
+  {
+    "key": "Preset_Carnage_Edgerunners",
+    "name": "Характер",
+    "name_en": "Guts",
+    "record": "Items.Preset_Carnage_Edgerunners",
+    "kind": "Wea_Shotgun",
+    "description": "Огонь по площадям! Стреляет быстрее, урон выше.",
+    "source": "Мемориальный парк «Арасаки», Площадь Корпораций.",
+    "source_en": "Arasaka Memorial Park, Corpo Plaza.",
+    "aliases": [
+      132866446699,
+      140703509231,
+      180913420168
+    ],
+    "group": "Preset_Carnage_Edgerunners",
+    "limit": 1,
+    "image": "carnage_edgerunners",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 157715614907,
+        "slot": 105238933355
+      },
+      {
+        "record": 162355352909,
+        "slot": 97104548228
+      },
+      {
+        "record": 171395977997,
+        "slot": 105403780121
+      },
+      {
+        "record": 172106939443,
+        "slot": 127320661696
+      },
+      {
+        "record": 142850719044,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Rebecca's powerful shotgun."
+  },
+  {
+    "key": "Preset_Katana_Hiromi",
+    "name": "Цумэтоги",
+    "name_en": "Tsumetogi",
+    "record": "Items.Preset_Katana_Hiromi",
+    "kind": "Wea_Katana",
+    "description": "Незначительно увеличивает электрический урон и с низком вероятностью поражает током.",
+    "source": "Хироми: «Дворцовый переворот».",
+    "source_en": "Hiromi: Pisces.",
+    "aliases": [
+      115111092516,
+      137389332907,
+      157958635128
+    ],
+    "group": "Preset_Katana_Hiromi",
+    "limit": 1,
+    "image": "katana_hiromi",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 118342709489,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Katana with electrical and special-attack bonuses."
+  },
+  {
+    "key": "Preset_Katana_GoG",
+    "name": "Чёрный единорог",
+    "name_en": "Black Unicorn",
+    "record": "Items.Preset_Katana_GoG",
+    "kind": "Wea_Katana",
+    "description": "Обладает непревзойдённым балансом, при котором скорость атаки не зависит от уровня выносливости.",
+    "source": "Награда за привязку аккаунта; тайник Ви.",
+    "source_en": "Account linking reward; V's stash.",
+    "aliases": [
+      102196851662,
+      121310747324,
+      121682112477,
+      125939920867,
+      137126104855,
+      143047618308
+    ],
+    "group": "Preset_Katana_GoG",
+    "limit": 1,
+    "image": "katana_gog",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 105799407015,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Account reward katana with consistent attack speed."
+  },
+  {
+    "key": "Preset_Carnage_Mox",
+    "name": "Шельма",
+    "name_en": "Mox",
+    "record": "Items.Preset_Carnage_Mox",
+    "kind": "Wea_Shotgun",
+    "description": "Дробовик Джуди: ускоряет реакцию и перезарядку, снижает разброс при прицеливании.",
+    "source": "Джуди: «Отпусти меня, глубина», затем её квартира.",
+    "source_en": "Judy: Pyramid Song, then her apartment.",
+    "aliases": [
+      106712230883,
+      127826458927,
+      130745991368,
+      147741057243
+    ],
+    "group": "Preset_Carnage_Mox",
+    "limit": 1,
+    "image": "carnage_mox",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 157715614907,
+        "slot": 105238933355
+      },
+      {
+        "record": 162355352909,
+        "slot": 97104548228
+      },
+      {
+        "record": 171395977997,
+        "slot": 105403780121
+      },
+      {
+        "record": 172106939443,
+        "slot": 127320661696
+      },
+      {
+        "record": 110712015562,
+        "slot": 175478603208
+      }
+    ],
+    "description_en": "Judy's customized shotgun."
+  },
+  {
+    "key": "Preset_Cane_Fingers",
+    "name": "Щитомордник",
+    "name_en": "Cottonmouth",
+    "record": "Items.Preset_Cane_Fingers",
+    "kind": "Wea_OneHandedClub",
+    "description": "Наносит электрический и химический урон благодаря змеиным зубам, к которым подведены трубки с ядом и электричество.",
+    "source": "Клиника Фингерса: «Тайные удовольствия».",
+    "source_en": "Fingers' clinic: The Space in Between.",
+    "aliases": [
+      79515535402,
+      110459815989,
+      130033424243,
+      136578328681,
+      137485268331,
+      154568064515
+    ],
+    "group": "Preset_Cane_Fingers",
+    "limit": 1,
+    "image": "cane_fingers",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 75296954192,
+        "slot": 88002875893
+      },
+      {
+        "record": 114476178171,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Club with electrical and chemical effects."
+  },
+  {
+    "key": "Preset_Katana_E3",
+    "name": "Эррата",
+    "name_en": "Errata",
+    "record": "Items.Preset_Katana_E3",
+    "kind": "Wea_Katana",
+    "description": "Термическая катана: сближение с врагом и критические попадания по горящим целям.",
+    "source": "Печь на «Электрик корпорейшн»: «Неисправность».",
+    "source_en": "Electric Corporation furnace: Disasterpiece.",
+    "aliases": [
+      95932206476,
+      121552236861,
+      131929229496,
+      133665886131
+    ],
+    "group": "Preset_Katana_E3",
+    "limit": 1,
+    "image": "katana_e3",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 85621964897,
+        "slot": 88002875893
+      },
+      {
+        "record": 101114913551,
+        "slot": 163179493980
+      }
+    ],
+    "description_en": "Thermal katana with bonuses against burning targets."
+  }
+]

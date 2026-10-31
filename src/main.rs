@@ -1,6 +1,8 @@
 #![cfg_attr(target_os = "windows", windows_subsystem = "windows")]
 mod i18n;
 mod settings;
+mod weapon_images;
+mod weapons_ui;
 use anyhow::{Context, Result};
 use eframe::egui::{self, Color32, RichText};
 use i18n::Language;
@@ -21,6 +23,7 @@ const BG: Color32 = Color32::from_rgb(12, 17, 26);
 enum Tab {
     Player,
     Inventory,
+    Weapons,
     Appearance,
     Vehicles,
     Facts,
@@ -32,6 +35,7 @@ impl Tab {
         lang.text(match self {
             Self::Player => "Персонаж",
             Self::Inventory => "Инвентарь",
+            Self::Weapons => "Культовое оружие",
             Self::Appearance => "Внешность",
             Self::Vehicles => "Гараж",
             Self::Facts => "Квестовые флаги",
@@ -50,6 +54,7 @@ struct App {
     tab: Tab,
     search: String,
     item_filter: ItemFilter,
+    weapon_browser: weapons_ui::WeaponBrowser,
     status: String,
     error: bool,
     facts: Vec<Fact>,
@@ -85,6 +90,7 @@ impl Default for App {
             tab: Tab::Player,
             search: String::new(),
             item_filter: ItemFilter::default(),
+            weapon_browser: weapons_ui::WeaponBrowser::default(),
             status: "Выберите sav.dat или откройте пример сохранения".into(),
             error: false,
             facts: vec![],
@@ -396,6 +402,7 @@ impl App {
                 for (i, t) in [
                     Tab::Player,
                     Tab::Inventory,
+                    Tab::Weapons,
                     Tab::Appearance,
                     Tab::Vehicles,
                     Tab::Facts,
@@ -1296,6 +1303,7 @@ impl eframe::App for App {
                             .inner
                     }
                     Tab::Inventory => self.inventory(ui),
+                    Tab::Weapons => self.weapons(ui),
                     Tab::Appearance => self.appearance(ui),
                     Tab::Vehicles => self.vehicles(ui),
                     Tab::Facts => self.facts(ui),
@@ -1395,7 +1403,9 @@ fn stat_label(s: &str, lang: Language) -> &str {
 fn inv_label(id: u64, lang: Language) -> String {
     match id {
         1 => lang.text("Инвентарь V").into(),
-        1000 => lang.text("Тайник").into(),
+        nightcity_save_editor::weapons::STASH | nightcity_save_editor::weapons::APARTMENT_STASH => {
+            lang.text("Тайник").into()
+        }
         _ => format!("{} {id}", lang.text("Контейнер")),
     }
 }

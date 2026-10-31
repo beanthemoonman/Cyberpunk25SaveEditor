@@ -6,3 +6,4 @@ mod face;
 pub mod item_catalog;
 pub mod package;
 pub mod save;
+pub mod weapons;

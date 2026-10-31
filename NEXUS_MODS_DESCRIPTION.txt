@@ -1,4 +1,4 @@
-Night City Save Editor 0.1.9
+Night City Save Editor 0.1.10
 
 РУССКИЙ
 
@@ -25,7 +25,16 @@ Night City Save Editor — Cyberpunk 2077 2.5
 
 Как использовать: закройте игру, откройте sav.dat, внесите изменения и нажмите «Экспорт копии». Поместите новую папку ManualSave рядом с остальными сохранениями и загрузите её в игре.
 
-История изменений: 0.1.9 → 0.1.2
+История изменений: 0.1.10 → 0.1.2
+
+0.1.10 — культовое оружие (31 октября 2026)
+
+- Исправлено несоответствие начального ранга оружия и стоимости улучшений. Новый выбор: по уровню V без «+», серое первого ранга или максимальное 5++. Начальный ранг, «+»/«++» и счётчик улучшений согласованы; исправление применяется к новым копиям. Проверка новой схемы в игре ещё требуется.
+- Пользователь подтвердил в игре: две одинаковые культовые пушки можно использовать с двух рук, независимо улучшать и оснащать модификациями.
+- Отдельная вкладка «Культовое оружие»: 60 карточек с изображениями, описаниями и способами получения, поиск и фильтр по типу.
+- Добавление полноценных экземпляров оружия с учётом наличия в инвентаре V и тайнике. Лимит — 2 для оружия с поддержкой стрельбы с двух рук и 1 для остальных.
+- Два варианта Скиппи: с ИИ до квеста и молчаливый после, с общим лимитом. Реплики и квест зависят от состояния сохранения.
+- Функция добавления оружия тестовая и проходит испытания; влияние на квесты пока не проверено. Доступны отмена и повтор изменений.
 
 0.1.9 — удобный инвентарь и уровни для модифицированной игры (29 октября 2026)
 
@@ -114,7 +123,16 @@ This is an initial working version for the 2.5 format (saveVersion 277 / gameVer
 
 How to use: close the game, open sav.dat, make your changes and select Export copy. Place the new ManualSave folder alongside your other saves and load it in the game.
 
-Changelog: 0.1.9 → 0.1.2
+Changelog: 0.1.10 → 0.1.2
+
+0.1.10 — iconic weapons (October 31, 2026)
+
+- Fixed the mismatch between initial weapon tier and upgrade costs. Choose V's level without “+”, grey Tier 1, or maximum Tier 5++. Initial tier, +/++ and the upgrade counter are synchronized for newly added copies. The revised progression still needs in-game verification.
+- User-confirmed in game: two identical iconic guns support dual wield, independent upgrades and separate modifications.
+- A dedicated Iconic weapons tab: 60 cards with artwork, descriptions and acquisition notes, search and a type filter.
+- Create complete weapon instances while counting ownership across V's inventory and stash. Limit: 2 for dual-wield weapons and 1 for others.
+- Pre-quest AI and silent post-quest Skippy variants share an ownership limit. Dialogue and quest behavior depend on the save's story state.
+- Weapon addition is experimental and being tested; quest compatibility remains unverified. Undo and redo are supported.
 
 0.1.9 — inventory browser and levels for modded games (October 29, 2026)
 

@@ -1937,11 +1937,12 @@ dependencies = [
 
 [[package]]
 name = "nightcity-save-editor"
-version = "0.1.9"
+version = "0.1.10"
 dependencies = [
  "anyhow",
  "crc32fast",
  "eframe",
+ "image",
  "lz4_flex",
  "rfd",
  "serde",
