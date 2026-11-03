@@ -2405,5 +2405,44 @@
       }
     ],
     "description_en": "Thermal katana with bonuses against burning targets."
+  },
+  {
+    "key": "Preset_Burya_King",
+    "name": "Коронация",
+    "name_en": "Coronation",
+    "record": "Items.Preset_Burya_King",
+    "kind": "Wea_Revolver",
+    "description": "Культовый электромагнитный револьвер Кинга из обновления 2.5.",
+    "description_en": "King's iconic Tech revolver from Update 2.5.",
+    "source": "Награда за задание «Clampdown» в обновлении 2.5.",
+    "source_en": "Reward from the Clampdown quest in Update 2.5.",
+    "aliases": [],
+    "group": "Preset_Burya_King",
+    "limit": 1,
+    "image": "burya_king",
+    "quest_sensitive": false,
+    "dual_wield": false,
+    "parts": [
+      {
+        "record": 177066299039,
+        "slot": 105238933355
+      },
+      {
+        "record": 184442461598,
+        "slot": 97104548228
+      },
+      {
+        "record": 191906820673,
+        "slot": 105403780121
+      },
+      {
+        "record": 195110373161,
+        "slot": 127320661696
+      },
+      {
+        "record": 105654315203,
+        "slot": 175478603208
+      }
+    ]
   }
 ]

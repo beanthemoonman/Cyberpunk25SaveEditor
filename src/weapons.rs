@@ -508,7 +508,8 @@ mod tests {
             return;
         }
         let original = without_catalog_ownership(sample());
-        assert_eq!(catalog().len(), 60);
+        assert_eq!(catalog().len(), 61);
+        let added_count = catalog().len() - 1; // Skippy variants share one slot.
         let mut edited = original.clone();
         let (p, c) = stats(&original);
         let before_rows = p
@@ -531,7 +532,7 @@ mod tests {
         let reopened = Save::parse(edited.encode().unwrap()).unwrap();
         assert_eq!(
             reopened.items().unwrap().len(),
-            original.items().unwrap().len() + 59
+            original.items().unwrap().len() + added_count
         );
         for w in catalog() {
             assert_eq!(
@@ -577,7 +578,7 @@ mod tests {
         let rows = q
             .array(&d.field(&q, "valuesOptimized").unwrap().data)
             .unwrap();
-        assert_eq!(rows.len(), before_rows.len() + 59);
+        assert_eq!(rows.len(), before_rows.len() + added_count);
         for (a, b) in before_rows.iter().zip(&rows) {
             assert_eq!(a.encode(), b.encode());
         }
@@ -677,6 +678,10 @@ mod tests {
         s.add_iconic_weapon("Preset_Katana_Saburo").unwrap();
         let before = s.data.clone();
         assert!(s.add_iconic_weapon("Preset_Katana_Saburo").is_err());
+        assert_eq!(s.data, before);
+        s.add_iconic_weapon("Preset_Burya_King").unwrap();
+        let before = s.data.clone();
+        assert!(s.add_iconic_weapon("Preset_Burya_King").is_err());
         assert_eq!(s.data, before);
         s.add_iconic_weapon("mq007_skippy").unwrap();
         let before = s.data.clone();

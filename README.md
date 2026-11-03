@@ -74,7 +74,12 @@
 окончательные характеристики, улучшения и квестовые реакции нужно проверить в игре.
 Работают отмена/повтор и экспорт копии. Возможность включена в готовые пакеты 0.1.10 для Windows и macOS.
 
-### История изменений: 0.1.10 → 0.1.2
+### История изменений: 0.1.11 → 0.1.2
+
+#### 0.1.11 — в разработке
+
+- В добавление культового оружия включён револьвер «Коронация» (Coronation) из обновления 2.5 с изображением и штатными деталями из данных игры. Лимит — один экземпляр суммарно в инвентаре V и тайнике.
+- Версия остаётся в разработке; пакеты для скачивания пока относятся к 0.1.10. Проверка Coronation в игре ещё требуется.
 
 #### 0.1.10 — культовое оружие (31 октября 2026)
 
@@ -324,7 +329,12 @@ verification does not replace checking that the edited save loads in the game.
 **About us** opens the author’s projects and music page, including before loading
 a save.
 
-### Changelog: 0.1.10 → 0.1.2
+### Changelog: 0.1.11 → 0.1.2
+
+#### 0.1.11 — in development
+
+- Added Coronation, the iconic revolver from Update 2.5, to weapon creation with artwork and native parts extracted from game data. Limited to one copy across V's inventory and stash.
+- This version remains in development; downloadable packages are still 0.1.10. Coronation still needs in-game verification.
 
 #### 0.1.10 — iconic weapons (October 31, 2026)
 

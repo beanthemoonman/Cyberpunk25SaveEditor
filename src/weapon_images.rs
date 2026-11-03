@@ -6,6 +6,7 @@ pub fn png(key: &str) -> Option<&'static [u8]> {
         "baseball_bat_denny" => include_bytes!("../assets/iconic_weapons/baseball_bat_denny.png"),
         "baton_tinker_bell" => include_bytes!("../assets/iconic_weapons/baton_tinker_bell.png"),
         "burya_comrade" => include_bytes!("../assets/iconic_weapons/burya_comrade.png"),
+        "burya_king" => include_bytes!("../assets/iconic_weapons/burya_king.png"),
         "butchers_knife_iconic" => {
             include_bytes!("../assets/iconic_weapons/butchers_knife_iconic.png")
         }
