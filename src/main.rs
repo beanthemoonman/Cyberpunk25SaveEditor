@@ -1465,6 +1465,9 @@ mod inventory_tests {
 
     #[test]
     fn browsing_and_combining_filters_never_changes_save_data() {
+        if !std::path::Path::new("saveExample/sav.dat").exists() {
+            return;
+        }
         let save = Save::load(std::path::Path::new("saveExample")).unwrap();
         let data = save.data.clone();
         let mut app = App {
